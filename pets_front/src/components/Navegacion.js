@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import "../css/navegacion.css";
 import logo from "../images/dog.png";
 import Login from "../components/Logginbtn";
+import Logout from "../components/Logout";
 
-const Navegacion = () => {
+const Navegacion = (props) => {
+    let logButton = true;
+    if (props.logged) {
+        logButton = <Logout />;
+    } else {
+        logButton = <Login />;
+    }
   return (
     <>
       <nav className="rd-navbar rd-navbar-transparent  rd-navbar-static rd-navbar--is-stuck">
@@ -44,8 +51,8 @@ const Navegacion = () => {
                   <span class="material-icons icon">shopping_cart</span>
                 </Link>
               </li>              
-              <li>
-                <Login />
+              <li>                
+                {logButton}
               </li>
             </ul>
           </div>
