@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/navegacion.css'
 import logo from '../images/dog.png'
+import Login from "../components/Logginbtn";
 
 const Navegacion = () => {
     return (
@@ -41,6 +42,9 @@ const Navegacion = () => {
                                     <span class="material-icons icon">
                                         shopping_cart
                                     </span></Link>
+                            </li>
+                            <li>
+                                <Login/>
                             </li>
                         </ul>
                     </div>

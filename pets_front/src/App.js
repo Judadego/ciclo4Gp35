@@ -8,10 +8,6 @@ import Footer from './components/Footer';
 import Contacto from './pages/Contacto';
 import Carrito from './pages/Carrito';
 
-
-
-
-
 function App() {
   return (
     <div className="App">
