@@ -1,0 +1,23 @@
+#formReg{
+    
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.243);
+}
+.form-group {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+
+#slider{
+    background-image: url(../images/slider_1.PNG);
+}

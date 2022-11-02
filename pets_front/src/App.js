@@ -7,6 +7,7 @@ import Navegacion from './components/Navegacion';
 import Footer from './components/Footer';
 import Contacto from './pages/Contacto';
 import Carrito from './pages/Carrito';
+import Registro1  from './pages/Registro';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path='contacto' element={<Contacto></Contacto>} />
           <Route path='nosotros' element={<Nosotros></Nosotros>} />
           <Route path='carrito' element={<Carrito></Carrito>} />
-          <Route path='*' element={<Navigate to="/" />} />
+          <Route path="registro1" element={<Registro1 to="/registro1"></Registro1>}/>
+          <Route path='*' element={<Navigate to="/" />} />          
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

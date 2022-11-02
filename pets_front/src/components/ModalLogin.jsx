@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
@@ -36,15 +37,18 @@ function ModalLogin(props) {
               Iniciar
             </Button>
             <br></br>
-            Si aun no te has registrado <br></br>
-            <Button variant="success" type="submit">
-              Registrate
-            </Button>
+            <br></br>
+            Si aun no te has registrado <br></br>↓↓↓<br></br>
+            <Link to={"/registro1"}>
+              <Button variant="primary" onClick={props.onHide}>
+                Registrarse
+              </Button>
+            </Link>
           </div>
         </Form>
       </Modal.Body>
       <Modal.Footer id="footer">
-        <Button onClick={props.onHide}>Close</Button>
+        <Button variant="danger" onClick={props.onHide}>Cerrar</Button>
       </Modal.Footer>
     </Modal>
   );
