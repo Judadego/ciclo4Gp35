@@ -4,6 +4,11 @@ a {
   transition: 0.33s all ease-out;
 }
 
+#headerP{
+  z-index: 10000;
+  position: fixed;
+}
+
 .rd-navbar-static .rd-navbar-nav > li {
   display: inline-block;
   padding: 0 5px;
@@ -14,8 +19,9 @@ a {
   text-transform: uppercase;
 }
 
-.rd-navbar-static .rd-navbar-inner {
-  position: relative;
+.rd-navbar-static .rd-navbar-inner { 
+  z-index: 5;
+  position:relative;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;

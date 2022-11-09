@@ -1,24 +1,49 @@
-import React from 'react'
-
-
+import React from "react";
 
 const Tienda = () => {
-    return (
-        <div>
-            <div>
-                <section className="py-5 text-center container">
-                    <div className="row py-lg-5">
-                        <div className="col-lg-6 col-md-8 mx-auto">
-                            <h1 className="fw-light">Vista Tienda</h1>
-                            <p className="lead text-muted">Something short and leading about the collection below—its contents, the
-                                creator,
-                                etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                        </div>
-                    </div>
-                </section>
+  return (
+    <div>
+      <div>
+        <section className="py-5 text-center container">
+          <div className="row py-lg-5">
+            <div className="col-lg-6 col-md-8 mx-auto">
+              <table class="table caption-top">
+                <caption>List of users</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-        </div>
-    )
-}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};
 
-export default Tienda
+export default Tienda;
