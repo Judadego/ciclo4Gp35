@@ -1,4 +1,5 @@
 import React from 'react'
+import "../css/home.css"
 import Banner_inicio from '../components/Banners_inicio.jsx'
 import Carrusel_clientes from '../components/Carrusel_clientes'
 import Carrusel_inicio from '../components/Carrusel_inicio'
@@ -9,7 +10,7 @@ import Inicio_Iconos from '../components/Inicio_Iconos'
 
 const Home = () => {
     return (
-        <div>
+        <div id="home12">
             <Carrusel_inicio></Carrusel_inicio>
             <Inicio_Iconos></Inicio_Iconos>
             <Carrusel_productos></Carrusel_productos>

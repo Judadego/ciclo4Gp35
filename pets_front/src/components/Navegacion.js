@@ -34,7 +34,7 @@ const Navegacion = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/tienda"}>
+                  <Link to={"/producto"}>
                     Tienda
                     <span class="material-icons icon">sell</span>
                   </Link>
