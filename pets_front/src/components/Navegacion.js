@@ -34,8 +34,14 @@ const Navegacion = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/producto"}>
+                  <Link to={"/tienda"}>
                     Tienda
+                    <span class="material-icons icon">sell</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/producto"}>
+                    Productos
                     <span class="material-icons icon">sell</span>
                   </Link>
                 </li>

@@ -11,8 +11,8 @@ function ProductoIndex(props) {
               <br></br>
               <br></br>
               <br></br>
-                <div>
-                    <h3>Tienda</h3>
+                <div id="productBanner">
+                    <h3>Productos</h3>
                     <p>Bienvenido a la pagina principal de productos</p>
                 </div>
             </div>

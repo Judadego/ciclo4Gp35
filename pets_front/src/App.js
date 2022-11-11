@@ -19,6 +19,7 @@ function App() {
         <Navegacion logged={false} />
         <Routes>
           <Route path="/" element={<Home></Home>} />
+          <Route path="/tienda" element={<Tienda></Tienda>} />
           <Route
             path="producto">
            {/* element={
