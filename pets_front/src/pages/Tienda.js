@@ -1,16 +1,13 @@
 import React from "react";
 import BannerTienda from "../components/BannerTienda";
 import CategoriasTienda from "../components/CategoriasTienda";
-
-
 import '../css/tienda.css'
 
-const Tienda = () => {
+function Tienda(props) {
   return (
     <div >
       <BannerTienda></BannerTienda>
-      <CategoriasTienda>
-      </CategoriasTienda>
+      <CategoriasTienda></CategoriasTienda>
     </div>
   );
 };
