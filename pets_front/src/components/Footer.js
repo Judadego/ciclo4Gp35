@@ -56,10 +56,10 @@ const Footer = () => {
                             <div className="row">
                                 <div className="col-md-4 mb-md-0 mb-4">
                                     <h2 className="footer-heading">Acerca de</h2>
-                                    <p className="text">
-                                        Nuestra tienda de mascotas radica en brindar atención de calidad a las mascotas.
+                                    <h2 className="footer-heading">
+                                         Nuestra tienda de mascotas radica en brindar atención de calidad a las mascotas.
                                         Queremos que nuestros clientes y sus mascotas reciban el mejor servicio y productos, por eso trabajamos solo con fabricantes probados y respetados.
-                                    </p>
+                                     </h2>
                                 </div>
                                 <div className="col-md-4 mb-md-0 mb-4">
                                     <h2 className="footer-heading">Links</h2>
@@ -93,10 +93,10 @@ const Footer = () => {
                     </div>
                     <div className="row mt-5 pt-4 border-top">
                         <div className="text-center">
-                            <p className="copyright mb-0">
-                                Pets Shop
+                            <h2 className="footer-heading">
+                                + Cotas Pet Shop
                                 Copyright &copy;
-                            </p>
+                            </h2>
                         </div>
                     </div>
                 </div>
