@@ -6,7 +6,7 @@ import producto from '../images/product-04-200x200.png'
 import { Link } from 'react-router-dom'
 
 
-const Carrusel_productos = () => {
+const CarruselProductos = () => {
 
     return (
         <div className="carrusel-productos">
@@ -379,4 +379,4 @@ const Carrusel_productos = () => {
     )
 }
 
-export default Carrusel_productos
+export default CarruselProductos

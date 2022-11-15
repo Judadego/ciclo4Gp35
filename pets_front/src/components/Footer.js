@@ -57,9 +57,9 @@ const Footer = () => {
                                 <div className="col-md-4 mb-md-0 mb-4">
                                     <h2 className="footer-heading">Acerca de</h2>
                                     <h2 className="footer-heading">
-                                         Nuestra tienda de mascotas radica en brindar atención de calidad a las mascotas.
+                                        Nuestra tienda de mascotas radica en brindar atención de calidad a las mascotas.
                                         Queremos que nuestros clientes y sus mascotas reciban el mejor servicio y productos, por eso trabajamos solo con fabricantes probados y respetados.
-                                     </h2>
+                                    </h2>
                                 </div>
                                 <div className="col-md-4 mb-md-0 mb-4">
                                     <h2 className="footer-heading">Links</h2>

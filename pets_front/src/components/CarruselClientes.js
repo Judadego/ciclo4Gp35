@@ -7,7 +7,7 @@ import cliente3 from '../images/home1-9-280x320.jpg'
 
 
 
-const Carrusel_clientes = () => {
+const CarruselClientes = () => {
     return (
         <div id="carouselExampleControls" className="carousel slide clientes" data-bs-ride="carousel">
             <div className="carousel-inner">
@@ -62,4 +62,4 @@ const Carrusel_clientes = () => {
     )
 }
 
-export default Carrusel_clientes
+export default CarruselClientes

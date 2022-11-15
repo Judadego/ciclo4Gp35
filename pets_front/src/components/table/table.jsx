@@ -9,7 +9,7 @@ function Table(props) {
     //props.columnsAlias
     //props.tools
     return (
-        <table class="table">
+        <table className="table">
             <caption>{props.name}</caption>
             <Header columns={props.columnsAlias} tools={props.tools} />
             <Body

@@ -20,30 +20,25 @@ function App() {
         <Routes>
           <Route path="/" element={<Home></Home>} />
           <Route path="/tienda" element={<Tienda></Tienda>} />
+
+          <Route path="/producto" element={<ProductoIndex></ProductoIndex>}></Route>
           <Route
-            path="producto">
-           {/* element={
-              <Tienda>*/}
-                <Route path="/producto" element={<ProductoIndex></ProductoIndex>}></Route>
-                <Route
-                  path="/producto/create"
-                  element={<CrearProducto></CrearProducto>}
-                ></Route>
-                <Route path="/producto/update/">
-                  <Route
-                    path=":idProduct"
-                    element={<ActualizarProducto />}
-                  ></Route>
-                </Route>
-                <Route path="/producto/delete/">
-                  <Route
-                    path=":idProduct"
-                    element={<EliminarProducto />}
-                  ></Route>
-                </Route>
-            {/*  </Tienda>
-            }*/}
+            path="/producto/create"
+            element={<CrearProducto></CrearProducto>}
+          ></Route>
+          <Route path="/producto/update/">
+            <Route
+              path=":idProduct"
+              element={<ActualizarProducto />}
+            ></Route>
           </Route>
+          <Route path="/producto/delete/">
+            <Route
+              path=":idProduct"
+              element={<EliminarProducto />}
+            ></Route>
+          </Route>
+
           <Route path="registro" element={<Nosotros></Nosotros>} />
           <Route path="contacto" element={<Contacto></Contacto>} />
           <Route path="nosotros" element={<Nosotros></Nosotros>} />
@@ -52,7 +47,7 @@ function App() {
             path="registro1"
             element={<Registro1 to="/registro1"></Registro1>}
           />
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

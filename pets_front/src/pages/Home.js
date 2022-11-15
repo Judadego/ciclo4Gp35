@@ -1,22 +1,21 @@
 import React from 'react'
 import "../css/home.css"
-import Banner_inicio from '../components/Banners_inicio.jsx'
-import Carrusel_clientes from '../components/Carrusel_clientes'
-import Carrusel_inicio from '../components/Carrusel_inicio'
-import Carrusel_productos from '../components/Carrusel_productos'
-import Inicio_Iconos from '../components/Inicio_Iconos'
+import CarruselInicio from '../components/CarruselInicio'
+import IconosHome from '../components/IconosHome'
+import CarruselProductos from '../components/CarruselProductos'
+import BannerInicio from '../components/BannersInicio'
+import CarruselClientes from '../components/CarruselClientes'
 
 
 
 const Home = () => {
     return (
         <div id="home12">
-            <Carrusel_inicio></Carrusel_inicio>
-            <Inicio_Iconos></Inicio_Iconos>
-            <Carrusel_productos></Carrusel_productos>
-            <Banner_inicio></Banner_inicio>
-            <Carrusel_clientes></Carrusel_clientes>
-
+            <CarruselInicio></CarruselInicio>
+            <IconosHome></IconosHome>
+            <CarruselProductos></CarruselProductos>
+            <BannerInicio></BannerInicio>
+            <CarruselClientes></CarruselClientes>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import '../css/tienda.css'
 
 function Tienda(props) {
   return (
-    <div >
+    <div>
       <BannerTienda></BannerTienda>
       <CategoriasTienda></CategoriasTienda>
     </div>

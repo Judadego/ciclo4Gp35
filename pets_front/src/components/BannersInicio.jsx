@@ -6,15 +6,15 @@ import banner2 from '../images/banner_2perro.jpg'
 import banner3 from '../images/banner_3.jpg'
 
 
-const Banner_inicio = () => {
+const BannerInicio = () => {
     return (
         <div className="section_banners">
-            <br></br><br></br>
+            
             <div className="container">
                 <div className="row ">
                     <div className="col-sm-8 banner_66_2">
                         <div className="banner_item ">
-                            <img className='img-banner'
+                            <img
                                 src={banner1}
                                 alt="" />
                             <div className="banner_caption">
@@ -28,7 +28,7 @@ const Banner_inicio = () => {
 
                         <div className="second_row">
                             <div className="banner_item  ">
-                                <img className='img-banner'
+                                <img
                                     src={banner2}
                                     alt="" />
                                 <div className="banner_caption">
@@ -47,7 +47,7 @@ const Banner_inicio = () => {
 
                     <div className="col-sm-4 banner_33">
                         <div className="banner_item ">
-                            <img className='img-banner'
+                            <img 
                                 src={banner3}
                                 alt="" />
                             <div className="banner_caption style_telling">
@@ -65,4 +65,4 @@ const Banner_inicio = () => {
     )
 }
 
-export default Banner_inicio
+export default BannerInicio

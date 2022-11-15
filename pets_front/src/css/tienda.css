@@ -223,8 +223,8 @@
 }
 
 .img-cat {
-  position: relative;
-  right: 360px;
-  top: 30px;
+  position: absolute;
+  top: 2332px;
+  right: 1200px;
   width: 800px;
 }

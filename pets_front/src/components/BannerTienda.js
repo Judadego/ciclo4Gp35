@@ -6,7 +6,7 @@ const BannerTienda = () => {
     return (
 
 
-        <div class="banner">
+        <div className="banner">
             <p>Alimento Para Perros Y Gatos</p>
         </div>
     );

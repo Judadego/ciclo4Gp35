@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Inicio_Iconos = () => {
+const IconosHome = () => {
     return (
 
         <div id="shopify-section-1596008730980" className="shopify-section section section_homepage section_logo-list">
@@ -101,4 +101,4 @@ const Inicio_Iconos = () => {
     )
 }
 
-export default Inicio_Iconos
+export default IconosHome

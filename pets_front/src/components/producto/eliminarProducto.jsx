@@ -1,5 +1,7 @@
 import { getProductById } from "../../js/getData";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import '../../css/formularios.css'
+import banner from '../../images/bg-image-5.jpg'
 function EliminarProducto(props) {
     //props.productId
     let { idProduct } = useParams();
@@ -8,19 +10,18 @@ function EliminarProducto(props) {
         product = {};
     }
     return (
-        <div className="mx-auto text-center m-3 p-3">
-        <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-            <h2>Pagina: Eliminar Producto</h2>
+        <div>
+            <div>
+                <img src={banner} className="img-banner" alt=""></img>
+            </div>
+            <div className="mx-auto text-center m-3 p-3">
+            <h2 className="titilo-actualizar">Eliminar Producto</h2>
             <div className="w-75 mx-auto text-center">
                 <form>
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
                         <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="idproductfloating"
                             placeholder="Id Producto"
                             name="product_id"
@@ -30,10 +31,10 @@ function EliminarProducto(props) {
                         />
                         <label for="idproductfloating">Id producto</label>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
                         <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="floatingInput"
                             placeholder="Nombre Producto"
                             name="product_title"
@@ -44,11 +45,23 @@ function EliminarProducto(props) {
                         />
                         <label for="floatingInput">Nombre Producto</label>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
+                        <input
+                            type="text"
+                            className="form-control"
+                            id="floatingInput"
+                            placeholder="Descripción"
+                            name="product_descripción"
+                            minLength={3}
+                            required={true}
+                        />
+                        <label for="floatingInput">Descripción</label>
+                    </div>
+                    <div className="form-floating mb-3">
                         <input
                             type={"number"}
                             min={0}
-                            class="form-control"
+                            className="form-control"
                             id="floatingPrice"
                             placeholder="Precio"
                             name="product_price"
@@ -58,10 +71,10 @@ function EliminarProducto(props) {
                         />
                         <label for="floatingPrice">Precio</label>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
                         <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="floatingBrand"
                             placeholder="Marca"
                             name="product_brand"
@@ -73,13 +86,19 @@ function EliminarProducto(props) {
                         <label for="floatingBrand">Marca</label>
                     </div>
                     <button
-                        class="w-100 btn btn-lg btn-outline-danger"
+                        className="w-100 btn btn-lg btn-outline-danger"
                         type="button"
                     >
                         Eliminar
                     </button>
+                    <Link to={'/producto'}><button
+                        className="btn btn-outline-dark m-5"
+                    >
+                        Regresar
+                    </button></Link>
                 </form>
             </div>
+        </div>
         </div>
     );
 }

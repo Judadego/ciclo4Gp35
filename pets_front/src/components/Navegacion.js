@@ -16,7 +16,7 @@ const Navegacion = (props) => {
     <>
       <header id="headerP">
         <nav
-          
+
           className="rd-navbar rd-navbar-transparent  rd-navbar-static rd-navbar--is-stuck"
         >
           <div className="rd-navbar-inner">
@@ -42,7 +42,6 @@ const Navegacion = (props) => {
                 <li>
                   <Link to={"/producto"}>
                     Productos
-                    <span class="material-icons icon">sell</span>
                   </Link>
                 </li>
                 <li>

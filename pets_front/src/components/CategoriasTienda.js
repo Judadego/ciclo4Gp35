@@ -17,151 +17,151 @@ const CategoriasTienda = () => {
         <div className="container">
             <div>
                 <img className="img-medalla" src={medalla} alt="" ></img>
-                <img src={perro} class=" img-dog" alt="..."></img>
+                <img src={perro} className=" img-dog" alt="..."></img>
             </div>
             <div className="row row-50">
-                <div class="col-lg-4 col-xl-3">
-                    <div class="aside row row-30 row-md-50 justify-content-md-between">
-                        <div class="aside-item col-12">
-                            <h6 class="aside-title text-center">FILTRAR POR PRECIO</h6>
+                <div className="col-lg-4 col-xl-3">
+                    <div className="aside row row-30 row-md-50 justify-content-md-between">
+                        <div className="aside-item col-12">
+                            <h6 className="aside-title text-center">FILTRAR POR PRECIO</h6>
                             <hr />
                         </div>
                         <div>
-                            <input type="range" class="rango" id="customRange1" />
-                            <button class="btn btn-tienda">Flitrar</button>
+                            <input type="range" className="rango" id="customRange1" />
+                            <button className="btn btn-tienda">Flitrar</button>
                         </div>
-                        <div class="aside-item col-sm-6 col-md-5 col-lg-12">
-                            <h6 class="aside-title text-center">Categorías</h6>
+                        <div className="aside-item col-sm-6 col-md-5 col-lg-12">
+                            <h6 className="aside-title text-center">Categorías</h6>
                             <hr />
-                            <ul class="list-shop-filter">
+                            <ul className="list-shop-filter">
                                 <li>
-                                    <label class="checkbox-inline">
-                                        <input class="form-check-input me-1 form-check-input is-valid" type="checkbox"
-                                            value="" id="firstCheckbox" /><span class="checkbox-custom-dummy"></span>Alimento
-                                    </label><span class="list-shop-filter-number">(10)</span>
+                                    <label className="checkbox-inline">
+                                        <input className="form-check-input me-1 form-check-input is-valid" type="checkbox"
+                                            value="" id="firstCheckbox" /><span className="checkbox-custom-dummy"></span>Alimento
+                                    </label><span className="list-shop-filter-number">(10)</span>
                                 </li>
                                 <li>
-                                    <label class="checkbox-inline">
-                                        <input class="form-check-input me-1 form-check-input is-valid " type="checkbox"
+                                    <label className="checkbox-inline">
+                                        <input className="form-check-input me-1 form-check-input is-valid " type="checkbox"
                                             value="" id="firstCheckbox" /><span
-                                                class="checkbox-custom-dummy"></span>Accesorios
-                                    </label><span class="list-shop-filter-number">(10)</span>
+                                                className="checkbox-custom-dummy"></span>Accesorios
+                                    </label><span className="list-shop-filter-number">(10)</span>
                                 </li>
                                 <li>
-                                    <label class="checkbox-inline">
-                                        <input class="form-check-input me-1 form-check-input is-valid" type="checkbox"
-                                            value="" id="firstCheckbox" /><span class="checkbox-custom-dummy"></span>Jugutes
-                                    </label><span class="list-shop-filter-number">(10)</span>
+                                    <label className="checkbox-inline">
+                                        <input className="form-check-input me-1 form-check-input is-valid" type="checkbox"
+                                            value="" id="firstCheckbox" /><span className="checkbox-custom-dummy"></span>Jugutes
+                                    </label><span className="list-shop-filter-number">(10)</span>
                                 </li>
                             </ul>
 
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-tienda type= submit"><span class="material-icons">
+                            <form className="d-flex" role="search">
+                                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                <button className="btn btn-tienda type= submit"><span className="material-icons">
                                     search
                                 </span></button>
                             </form>
                         </div>
-                        <div class="aside-item col-sm-6 col-lg-12">
-                            <h6 class="aside-title text-center">Productos Destacados</h6>
+                        <div className="aside-item col-sm-6 col-lg-12">
+                            <h6 className="aside-title text-center">Productos Destacados</h6>
                             <hr />
-                            <div class="row row-10 row-lg-20 gutters-10">
-                                <div class="col-4 col-sm-6 col-md-12">
+                            <div className="row row-10 row-lg-20 gutters-10">
+                                <div className="col-4 col-sm-6 col-md-12">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto1} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Ringo Croquetas - 30kg</p>
-                                                <p class="product-minimal-price">$115.000</p>
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Ringo Croquetas - 30kg</p>
+                                                <p className="product-minimal-price">$115.000</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-12 mt-5">
+                                <div className="col-4 col-sm-6 col-md-12 mt-5">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto2} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Collar Pañoleta</p>
-                                                <p class="product-minimal-price">$22.500</p>
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Collar Pañoleta</p>
+                                                <p className="product-minimal-price">$22.500</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-12 mt-5">
+                                <div className="col-4 col-sm-6 col-md-12 mt-5">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto3} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Arenero Plastico Azul
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Arenero Plastico Azul
                                                 </p>
-                                                <p class="product-minimal-price">$90.000</p>
+                                                <p className="product-minimal-price">$90.000</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-12 mt-5 ">
+                                <div className="col-4 col-sm-6 col-md-12 mt-5 ">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto4} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Juguete Catnip
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Juguete Catnip
                                                 </p>
-                                                <p class="product-minimal-price">$12.000</p>
+                                                <p className="product-minimal-price">$12.000</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-12 mt-5">
+                                <div className="col-4 col-sm-6 col-md-12 mt-5">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto5} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Plato Plegable
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Plato Plegable
                                                 </p>
-                                                <p class="product-minimal-price">$20.000</p>
+                                                <p className="product-minimal-price">$20.000</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-12 mt-5">
+                                <div className="col-4 col-sm-6 col-md-12 mt-5">
 
-                                    <article class="product-minimal">
-                                        <div class="unit unit-spacing-sm flex-column flex-md-row align-items-center">
-                                            <div class="unit-left"><a class="product-minimal-figure"
+                                    <article className="product-minimal">
+                                        <div className="unit unit-spacing-sm flex-column flex-md-row align-items-center">
+                                            <div className="unit-left"><a className="product-minimal-figure"
                                                 href="single-product.html"><img
                                                     src={producto6} alt="" width="106"
                                                     height="104" /></a></div>
-                                            <div class="unit-body">
-                                                <p class="product-minimal-title">Alimento Seco Para Gato
+                                            <div className="unit-body">
+                                                <p className="product-minimal-title">Alimento Seco Para Gato
                                                 </p>
-                                                <p class="product-minimal-price">$105.315 - 5Lb</p>
+                                                <p className="product-minimal-price">$105.315 - 5Lb</p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
                             </div>
-                            <img src={gato} alt="" class="img-cat"></img>
+                            <img src={gato} alt="" className="img-cat"></img>
                         </div>
                     </div>
                 </div>
