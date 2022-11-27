@@ -1,18 +1,20 @@
-import ProductIndex from "./productIndex";
-import { getData } from "../../js/getData";
+
 import "../../css/bannerProductos.css"
+import Navegacion from "../Navegacion";
+import TableProductos from "./TableProducto";
 
 function ProductoIndex(props) {
-    let productos = getData("url", {}, "get", {});
+    
     return (
-        <div > 
+        <div >
+            <Navegacion></Navegacion>
             <div id="productBanner">
                 <div >
                     <h3>Productos</h3> 
                 </div>
             </div>
-            {/* Componente de tabla y botones */}
-            <ProductIndex products={productos} />
+            <TableProductos></TableProductos>
+            
         </div>
     );
 }

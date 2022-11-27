@@ -2,16 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/navegacion.css";
 import logo from "../images/dog.png";
-import Login from "../components/Logginbtn";
-import Logout from "../components/Logout";
 
 const Navegacion = (props) => {
-  let logButton = true;
-  if (props.logged) {
-    logButton = <Logout />;
-  } else {
-    logButton = <Login />;
-  }
+
   return (
     <>
       <header id="headerP">
@@ -23,13 +16,13 @@ const Navegacion = (props) => {
             <div className="rd-navbar-nav-wrap ">
               <div className="rd-navbar-nav-wrap-bg"></div>
               <div>
-                <Link to={"/"}>
+                <Link to={"/home"}>
                   <img src={logo} alt="as" className="logo"></img>
                 </Link>
               </div>
               <ul className="rd-navbar-nav">
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/home"}>
                     Inicio<span class="material-icons icon">pets</span>
                   </Link>
                 </li>
@@ -60,7 +53,6 @@ const Navegacion = (props) => {
                     <span class="material-icons icon">shopping_cart</span>
                   </Link>
                 </li>
-                <li>{logButton}</li>
               </ul>
             </div>
           </div>
